@@ -29,6 +29,11 @@
     "prepublishOnly": "npm run build",
     "prepare": "husky install"
   },
+  "ava": {
+    "files": [
+      "**/*.test.js"
+    ]
+  },
   "devDependencies": {
     "@hbauer/eslint-config": "^1.4.1",
     "@hbauer/prettier-config": "^1.1.0",
