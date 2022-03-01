@@ -2,7 +2,6 @@ const lookup =
   'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789-_'
 
 /**
- *
  * @param {string} b64Url
  * @returns {Uint8Array}
  */
