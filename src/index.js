@@ -16,6 +16,13 @@ export const stringToB64Url = string =>
 export const uint8ArrayToB64Url = uint8Array => base64url.stringify(uint8Array)
 
 /**
+ * @param {Uint8Array} uint8Array
+ * @returns {string}
+ */
+export const uint8ArrayToString = uint8Array =>
+  new TextDecoder().decode(uint8Array)
+
+/**
  * @param {string} b64Url
  * @returns {Uint8Array}
  */
